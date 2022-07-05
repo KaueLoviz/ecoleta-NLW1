@@ -1,16 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+import Routes from './routes';
 
-        <h1>Fodasse</h1>
-      </header>
-    </div>
+// JSX: Sintaxe de XML dentro do JavaScript
+
+// useState retorna array = [valor do estado, função para atualizar o valor do estado]
+
+
+function App() { 
+  return (
+    <Routes />
   );
 }
 
